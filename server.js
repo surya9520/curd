@@ -10,6 +10,12 @@ let jsonDataStore = [];
 
 
 // GET Request 
+app.get('/', (req, res) => {
+
+    res.json({message:"hello from surya"});
+}
+);
+
 app.get('/api', (req, res) => {
   try {
     res.json(jsonDataStore);
