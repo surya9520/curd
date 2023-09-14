@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = "https://curd-gez6.onrender.com";
+const port = "https://curd-si6b.onrender.com"
 
 app.use(express.json());
 
